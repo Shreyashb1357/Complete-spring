@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Spring_Rest_Project
+server:
+ port: 7500

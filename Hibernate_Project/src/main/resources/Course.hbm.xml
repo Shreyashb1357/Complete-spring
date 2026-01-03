@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+<hibernate-mapping>
+	<class name="example.hibernate.entity.Course" 
+	table="Course_Master">
+		<id name="courseId" type="int" column="course_id"/>
+		<property name="title" type="string" column="course_title"/>
+		<property name="duration" type="int" column="course_duration"/>
+		<property name="fees" type="int" column="course_fees"/>
+	</class>	
+</hibernate-mapping>
+
+
+
+
+
+
+
+
+
+
+
